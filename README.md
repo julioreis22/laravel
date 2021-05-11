@@ -1,3 +1,33 @@
+# About FixForm Hot or not
+
+
+## To generate members using Seed
+php artisan db:seed --class=Members
+
+## To access Index
+http://domain/
+Result 
+http://domain/result
+Game
+http://domain/show
+
+
+## To clean de data results in CLI
+php artisan reset:results
+
+## For enable Rewind feature
+in .env file set 
+PREMIUM=true
+
+## For choose method of generation of matches
+in .env file set 
+SELECT_MODE=least
+or
+SELECT_MODE=random
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
