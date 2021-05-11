@@ -6,11 +6,14 @@ php artisan db:seed --class=Members
 
 ## To access Index
 http://domain/
-Result 
+
+## To access Result page 
 http://domain/result
-Game
+
+## To access the Game
 http://domain/show
 
+or click in the link at Index page
 
 ## To clean de data results in CLI
 php artisan reset:results
